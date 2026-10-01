@@ -51,8 +51,7 @@ Deteção de injeção SQL automatizada via ferramenta ofensiva para enumerar as
 
 Localização da tabela com dados sensíveis de clientes e identificação do conteúdo devolvido na resposta do servidor
 
-![Exfiltração Customers](prints/cyb3.PNG)
-> Retorno HTTP 200 contendo as informações de utilizadores extraídas da tabela `customers`[cite: 11].
+<img width="772" height="587" alt="cyb3" src="https://github.com/user-attachments/assets/707ccfc3-ca45-4a84-a514-1cebe90171b2" />
 
 ---
 
@@ -60,26 +59,24 @@ Localização da tabela com dados sensíveis de clientes e identificação do co
 
 Identificação do varrimento de pastas via força bruta até à localização da rota restrita do painel[cite: 2].
 
-![Acesso ao Diretório Admin](prints/cyb4.PNG)
-> Pacotes confirmando a descoberta e o acesso ao diretório `/admin/` via ferramenta de enumeração de rotas[cite: 2].
+<img width="1083" height="644" alt="cyb4" src="https://github.com/user-attachments/assets/16f4c069-1d99-455c-a85b-c84d274e545c" />
 
 ---
 
 ### 5. Comprometimento de Credenciais Administrativas
 
-Identificação do momento exato em que o invasor realiza a autenticação com credenciais válidas no painel de login[cite: 14].
+Identificação do momento exato em que o invasor realiza a autenticação com credenciais válidas no painel de login
 
-![Autenticação com Sucesso](prints/cyb6.PNG)
-> Envio de credenciais válidas via requisição POST e redirecionamento bem-sucedido (`302 Found`)[cite: 14].
+<img width="789" height="623" alt="cyb6" src="https://github.com/user-attachments/assets/4d928ad9-5c3c-4939-a7b2-52549054f2e4" />
 
 ---
 
-### 6. Acesso à Diretoria de Uploads
+### 6. Acesso aos Uploads
 
 Após aceder ao painel administrativo, o atacante navega até à pasta de transferências (`/admin/uploads/`) para preparar a inclusão e execução de artefactos no servidor[cite: 15].
 
-![Acesso à diretoria de uploads](prints/cyb7.PNG)
-> Requisição `GET /admin/uploads/` (Fluxo HTTP 651) com retorno `200 OK`, confirmando o acesso à área de armazenamento de ficheiros da aplicação[cite: 15].
+<img width="787" height="626" alt="cyb7" src="https://github.com/user-attachments/assets/7a03c33f-a36f-4e21-8ec9-739ea9d61e81" />
+
 
 ---
 
@@ -87,10 +84,10 @@ Após aceder ao painel administrativo, o atacante navega até à pasta de transf
 
 Nesta investigação prática, foi possível atingir os seguintes resultados:
 
-- Mapeamento completo da cadeia de ataque (*Cyber Kill Chain*) desde o reconhecimento até à fase de persistência[cite: 2].
-- Identificação precisa dos Indicadores de Comprometimento (IoCs), como IPs de origem, endpoints explorados e tabelas acedidas[cite: 2, 5].
-- Reconstrução de fluxos HTTP para verificar requisições POST, respostas do servidor e pastas acedidas[cite: 14, 15].
-- Desenvolvimento prático de competências em análise forense de pacotes (*PCAP analysis*) e filtragem avançada no Wireshark[cite: 5].
+- Mapeamento completo desde o conhecimento ate a cadeia de ataque (*Cyber Kill Chain*)
+- Identificação precisa dos Indicadores de Comprometimento, como IPs de origem, endpoints explorados e tabelas acedidas
+- Reconstrução de fluxos HTTP para verificar requisições POST, respostas do servidor e pastas 
+- Desenvolvimento prático de competências em análise de pacotes (*PCAP analysis*) e filtragem no Wireshark
 
 ---
 
