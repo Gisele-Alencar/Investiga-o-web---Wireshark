@@ -5,7 +5,7 @@
 ![Wireshark Display Filter](https://img.shields.io/badge/WIRESHARK%20DISPLAY%20FILTERS-000000?style=for-the-badge&logo=wireshark&logoColor=white)
 ![Linux](https://img.shields.io/badge/LINUX-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
-Este laboratório prático foi desenvolvido com base no desafio oficial [Web Investigation (BookWorld)](https://cyberdefenders.org/blueteam-ctf-challenges/web-investigation/) da plataforma **CyberDefenders**[cite: 2].  
+Este laboratório prático foi desenvolvido com base no desafio oficial [Web Investigation (BookWorld)](https://cyberdefenders.org/blueteam-ctf-challenges/web-investigation/) da plataforma **CyberDefenders** 
 A resolução teve como foco a aplicação de competências reais de Blue Team e Operações de Segurança (SOC), através de técnicas de Network e investigação de incidentes.
 
 ---
