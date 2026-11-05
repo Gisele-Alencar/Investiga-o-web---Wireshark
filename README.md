@@ -91,4 +91,4 @@ Nesta investigação prática, foi possível atingir os seguintes resultados:
 
 ---
 
-<p align="center">@2026 Gisele Alencar</p>
+<p align="center">© 2026 - Gisele Alencar</p>
